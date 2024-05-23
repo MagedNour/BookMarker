@@ -1,0 +1,99 @@
+main {
+    background-color: #f7ecde;
+}
+
+main h1 {
+    font-size: 50px;
+    font-family: "Pacifico", cursive;
+    color: #352e28;
+    position: relative;
+    z-index: 2;
+}
+
+main h1::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 25%;
+    left: 0;
+    bottom: 10px;
+    background-color: #fec260;
+    z-index: -1;
+    transition: all 0.5s;
+}
+
+main h1:hover::after {
+    height: 50%;
+}
+
+.header {
+    border-bottom: 2px dotted #352e28;
+}
+
+main h2 {
+    font-family: "Righteous", cursive;
+    font-size: 25px;
+    background-image: linear-gradient(to right, #3ca55c, #b5ac49);
+    background-clip: text;
+    color: transparent;
+    text-align: center;
+}
+
+.bookmark-body .btn-submit {
+    color: white;
+    background-color: #d1512d;
+    transition: 0.5s;
+}
+.bookmark-body .btn:hover{
+    background-color: #bb4120;
+    color: white;
+
+}
+
+.bookmark-body{
+    border-bottom: 2px dotted #352e28;
+
+}
+
+table{
+    background-color: white;
+}
+
+table .btn-visit{
+    color: white;
+    background-color: #9eb23b;
+    transition: 0.5s;
+}
+
+table .btn-visit:hover{
+    color: white;
+    background-color: #8a9e23;
+}
+
+table .btn-delete{
+    color: white;
+    background-color: #eb1d36;
+}
+
+table .btn-delete:hover{
+    color: white;
+    background-color: #d30820;
+}
+
+td, th{
+    padding: 10px 0px 10px 0px;
+    border-bottom: 1px solid #DEE2E6;
+
+}
+
+.box-info{
+    background-color: #0007;
+}
+.box-info li i{
+    color: #bb4120;
+}
+
+.circles span{
+    width: 25px;
+    height: 25px;
+}
